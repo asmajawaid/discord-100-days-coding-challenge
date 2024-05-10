@@ -1,3 +1,4 @@
+"use strict";
 //Q.42 Great Magicians: Start with a copy of your program from Exercise 39. Write a function 
 // called make_great() that modifies the array of magicians by adding the phrase the 
 // Great to each magician’s name. Call show_magicians() to see that the list has actually 
@@ -16,4 +17,6 @@ let magicians_names = ["herry potter", "alizbath", "diana"];
 let Great_magicians = make_great(magicians_names); //ak argument deni he jo ak Array hu
 //call show magicians function that show modify list of magicians
 show_magicians(Great_magicians);
-export {};
+// console.log(show_magicians);
+// console.log(magicians_names);
+// console.log(Great_magicians);

@@ -1,3 +1,4 @@
+"use strict";
 // Checking Usernames: Do the following to create a program that simulates how websites ensure
 //  that everyone has a unique username.
 // • Make a list of five or more usernames called current_users.
@@ -19,6 +20,5 @@ new_users.forEach((new_one_user) => {
         console.log(`this user name ${new_one_user} is available.`);
     }
 });
-export {};
 // • Make sure your comparison is case insensitive. If 'John' has been used, 'JOHN'
 //  should not be accepted.
