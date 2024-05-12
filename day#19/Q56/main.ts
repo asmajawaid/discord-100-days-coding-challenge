@@ -8,10 +8,10 @@ let mixedItems = ["yellow",9,"red",false, "green",5, "blue", 1,"pink",true]
 //make a list of string words in array
 let newArray = mixedItems.filter(item => typeof item === "string");
 
-//print only strins items
+//print only strins items/word
 console.log(newArray);
 
-
+// This line checks each item: if it's a word, it goes into the new list.
 
 
 
